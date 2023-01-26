@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- styleSheet -->
     <link rel="stylesheet" href="Styles/styles.css">
+    <!-- Animation on Scroll link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,13 +30,8 @@
             </div>
         </section>
     </header>
-    <!-------------------------------------------
-                     header end
-    --------------------------------------------->
 
-
-
-    <!-- main body start -->
+    <!-------------------------- main body start ----------------------->
     <main>
         <!-- Head Banner -->
         <section class="head-container">
@@ -42,8 +39,9 @@
                 <div class="banner-text">
                     <h4>Welcome to !!!</h4>
                     <h1><span class="special-word">Fl
-                        <img src="https://cdn-icons-png.flaticon.com/512/346/346218.png" alt=""> wer</span> Bucket</h1>
-                    <h4 >Natural & Fresh <span class="special-word" >Flowers</span> for your special!!</h4>
+                            <img src="https://cdn-icons-png.flaticon.com/512/346/346218.png" alt=""> wer</span> Bucket
+                    </h1>
+                    <h4>Natural & Fresh <span class="special-word">Flowers</span> for your special!!</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur at praesentium nihil!</p>
                 </div>
                 <img src="images/flowers-floral-shop-different-types.jpg" alt="">
@@ -52,12 +50,11 @@
 
         <!-- Services -->
         <section class="container">
-            <div class="service-text">
+            <div data-aos="flip-up" data-aos-easing="linear" data-aos-duration="1000" class="service-text">
                 <h2>Our Services</h2>
             </div>
-
             <div class="service-card-contaner">
-                <div class="service-card">
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="service-card">
                     <img src="images/beautiful-flower-bouquest-close-up.jpg" alt="">
                     <div class="service-body">
                         <h3>Special Bukey</h3>
@@ -65,7 +62,7 @@
                             repudiandae odio pariatur ex?</p>
                     </div>
                 </div>
-                <div class="service-card">
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500" class="service-card">
                     <img src="images/wedding-archway-with-lot-different-flowers.jpg" alt="">
                     <div class="service-body">
                         <h3>Venue Decoration</h3>
@@ -73,7 +70,7 @@
                             repudiandae odio pariatur ex?</p>
                     </div>
                 </div>
-                <div class="service-card">
+                <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="service-card">
                     <img src="images/black-bmw-decorated-with-white-wedding-bouquets.jpg" alt="">
                     <div class="service-body">
                         <h3>Car decoration</h3>
@@ -86,13 +83,13 @@
 
         <!-- About section -->
         <section class="container ">
-            <div class="About-text">
+            <div data-aos="flip-up" data-aos-easing="linear" data-aos-duration="1000" class="About-text">
                 <h2 class=""> About us </h2>
             </div>
             <div class="row">
-                <img src="https://img.freepik.com/free-photo/florist-making-beautiful-floral-bouquet_23-2148846490.jpg?size=626&ext=jpg&uid=R81442295&ga=GA1.1.1239272833.1664376337&semt=sph"
+                <img data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500" src="https://img.freepik.com/free-photo/florist-making-beautiful-floral-bouquet_23-2148846490.jpg?size=626&ext=jpg&uid=R81442295&ga=GA1.1.1239272833.1664376337&semt=sph"
                     alt="">
-                <div class="content">
+                <div data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500" class="content">
                     <h3 class="special-word">why choose us?</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cumque sit nemo pariatur
                         corporisperspiciatis aspernatur a ullam repudiandae autem asperiores quibusdam omnis commodi
@@ -104,7 +101,7 @@
         </section>
 
         <!-- Service icon -->
-        <section class="container icons-container">
+        <section data-aos="flip-down" data-aos-easing="linear" data-aos-duration="1000" class="container icons-container">
 
             <div class="icons">
                 <img src="images/icon/icon-1.png" alt="">
@@ -144,7 +141,7 @@
         <section class="container">
             <h1 class="special-word"> Customer's <span>review</span> </h1>
             <div class="box-container">
-                <div class="box">
+                <div data-aos="slide-up" data-aos-easing="linear" data-aos-duration="1300" class="box">
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -165,7 +162,7 @@
                     <span class="fas fa-quote-right"></span>
                 </div>
 
-                <div class="box">
+                <div data-aos="slide-up" data-aos-easing="linear" data-aos-duration="1400" class="box">
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -185,7 +182,7 @@
                     <span class="fas fa-quote-right"></span>
                 </div>
 
-                <div class="box">
+                <div data-aos="slide-up" data-aos-easing="linear" data-aos-duration="1500" class="box">
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -212,8 +209,6 @@
     </main>
     <!-- main body end -->
 
-
-
     <!-- Footer -->
     <section class="footer">
         <div class="footer-container">
@@ -239,6 +234,12 @@
         </div>
         <div class="credit"> copyright <span> Flower Bucket </span> | all rights reserved </div>
     </section>
+
+    <!--Script link for  AOS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
