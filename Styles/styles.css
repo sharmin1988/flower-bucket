@@ -310,6 +310,69 @@ body {
 /* ======================================================= 
                 @media query 
 ====================================================== */
+
+
+
+/* tab device */
+@media (max-width:978px) {
+    .container {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .special-word img {
+        width: 40px;
+        height: 40px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: -10px;
+    }
+
+    /* about */
+    .row {
+        flex-direction: column;
+    }
+
+    .row img {
+        width: 100%;
+    }
+
+    .content p {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    /* icon */
+    .icons-container {
+        width: 90%;
+        background: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1%;
+        padding: 0%;
+        margin: 0% 5%;
+    }
+
+    .icons {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    /* review */
+    .box .fa-quote-right {
+        font-size: 1rem;
+    }
+
+}
+
 /* mobile device */
 @media (max-width:664px) {
     .header-title h1 {
@@ -392,12 +455,14 @@ body {
     /* icon */
     .icons-container {
         width: 90%;
-        flex-direction: column;
         background: none;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1%;
         padding: 0%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin: 0% 5%;
     }
+
     .icons {
         margin-bottom: 2%;
     }
@@ -417,63 +482,5 @@ body {
         margin-left: 5%;
         margin-top: 5%;
     }
-
-}
-
-
-/* tab device */
-@media (max-width:978px){
-.container{
-    margin-left: 3%;
-    margin-right: 3%;
-}
-.header{
-    width: 100%;
-}
-
-.banner-text h1 {
-    font-size: 40px;
-}
-.special-word img {
-    width: 40px;
-    height: 40px;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom: -10px;
-}
-
-/* about */
-.row {
-    flex-direction: column;
-}
-
-.row img {
-    width: 100%;
-}
-
-.content p {
-    width: 100%;
-    padding-top: 0px;
-}
-
-/* icon */
-.icons-container {
-    width: 90%;
-    background: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1%;
-    padding: 0%;
-    margin: 0% 5%;    
-}
-.icons {
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* review */
-.box .fa-quote-right {
-    font-size: 1rem;
-}
 
 }
