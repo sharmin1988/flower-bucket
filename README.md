@@ -1,8 +1,6 @@
 # Project name: `Flower Bucket`
 ## Live link: https://sharmin1988.github.io/flower-bucket/
-### Its a Pure HTML, CSS, JavaScript based project about a `Small flower Shop & It's provided Service`. </br>
-</br>
-
+### Its a pure HTML, CSS based project about a `Small flower Shop & It's provided Service`. </br>
 #### Description:
 * Simple static `flower shop` website </br>
 * use `HTML, CSS` for design</br>
